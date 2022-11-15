@@ -1,0 +1,42 @@
+h1{
+    color:rgb(12, 91, 19);
+}
+
+.first-title{
+    color:blue;
+}
+.title{
+    color:purple;
+}
+#fifth-title{
+    color:rgb(204, 46, 154);
+}
+/* hexadecimal culori #ff00ff - avem R G B de la 0 1 9 a b c d e f - 16 nuante din fiecare din cele 3 culori */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+    font-size: 1em;
+}
+.contained {
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+}
+
+/* 1rem=16px dar rem se ajusteazain fuctie de setarile din chrome, e o unitate Relativa!! , font size in chrome: very large - rem = mai mare*/
+
+.main-title {
+    font-size: 1em;
+}
+.secondary-title {
+    font-size: 1em;
+}
